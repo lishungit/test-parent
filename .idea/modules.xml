@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/test-common/test-common.iml" filepath="$PROJECT_DIR$/test-common/test-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-exception/test-exception.iml" filepath="$PROJECT_DIR$/test-exception/test-exception.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-java8/test-java8.iml" filepath="$PROJECT_DIR$/test-java8/test-java8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-nettyClient/test-nettyClient.iml" filepath="$PROJECT_DIR$/test-nettyClient/test-nettyClient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-nettyService/test-nettyService.iml" filepath="$PROJECT_DIR$/test-nettyService/test-nettyService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-parent.iml" filepath="$PROJECT_DIR$/test-parent.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-performance/test-performance.iml" filepath="$PROJECT_DIR$/test-performance/test-performance.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-service/test-service.iml" filepath="$PROJECT_DIR$/test-service/test-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/test-web/test-web.iml" filepath="$PROJECT_DIR$/test-web/test-web.iml" />
+    </modules>
+  </component>
+</project>

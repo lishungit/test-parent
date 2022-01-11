@@ -1,0 +1,32 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="test-web:war exploded">
+    <output-path>$PROJECT_DIR$/test-web/target/test-web</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="test-web" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="test-common-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="test-common" />
+          </element>
+          <element id="library" level="project" name="Maven: io.muserver:mu-server:0.49.0" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.28" />
+          <element id="library" level="project" name="Maven: io.netty:netty-transport:4.1.48.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-resolver:4.1.48.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-handler:4.1.48.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec-http:4.1.48.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-buffer:4.1.48.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-common:4.1.48.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec:4.1.48.Final" />
+          <element id="library" level="project" name="Maven: io.netty:netty-codec-http2:4.1.48.Final" />
+          <element id="library" level="project" name="Maven: javax.ws.rs:javax.ws.rs-api:2.1.1" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/test-web/target/test-web/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="test-web/web/Web" />
+    </root>
+  </artifact>
+</component>

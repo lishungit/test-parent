@@ -1,0 +1,16 @@
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/pojo/BaseResponse.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/client/https/ClientChannelInitializer.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/client/socket/ResponseDecoder.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/client/socket/ResponseHandler.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/pojo/BaseRequest.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/constant/codeDefine/ReqCode.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/client/https/HttpClientInboundHandler.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/utils/ByteHelper.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/client/socket/RequestEncoder.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/pojo/MsgPacket.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/pojo/Test1Request.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/constant/codeDefine/ResponseCode.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/client/https/HttpClient.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/client/socket/ClientChannelInitializer.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/client/socket/Client.java
+/Users/shunli/dev_workspace/java_workspace/test-parent/test-nettyClient/src/main/java/cn/eshore/netty/pojo/Test1Response.java
