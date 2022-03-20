@@ -39,26 +39,46 @@
         <plugins>
             <!--打包，把依赖包打包到jar内 测试OK-->
             <plugin>
-            <artifactId>maven-assembly-plugin</artifactId>
-            <configuration>
-            <descriptorRefs>
-            <descriptorRef>jar-with-dependencies</descriptorRef>
-            </descriptorRefs>
-            <archive>
-            <manifest>
-            <mainClass>com.test.web.core.Application</mainClass>
-            </manifest>
-            </archive>
-            </configuration>
-            <executions>
-            <execution>
-            <id>make-assembly</id>
-            <phase>package</phase>
-            <goals>
-            <goal>single</goal>
-            </goals>
-            </execution>
-            </executions>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                    <archive>
+                        <manifest>
+                            <mainClass>com.test.web.core.Application</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>make-assembly</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-toolchains-plugin</artifactId>
+                <version>1.1</version>
+                <configuration>
+                    <toolchains>
+                        <jdk>
+                            <version>1.8</version>
+                            <vendor>sun</vendor>
+                        </jdk>
+                    </toolchains>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>toolchain</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
